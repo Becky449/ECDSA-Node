@@ -50,8 +50,8 @@ input {
 }
 
 .button {
-  background-color: #319795;
-  border-radius: 0.125rem;
+  background-color: #c49425;
+  border-radius: 0.75rem;
   padding: 10px 20px;
   color: white;
   display: inline-flex;
@@ -78,9 +78,28 @@ input {
     padding: 0.75rem;
     background-color: #f4f6f8;
   }
+
+  .address {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: .9em;
+    display: inline-flex;
+    margin-top: 10px;
+    padding: 0.75rem;
+    background-color: #f4f6f8;
+  }
 }
 
 .transfer {
   display: flex;
   flex-direction: column;
+
+  .info {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: .9em;
+    display: inline-flex;
+    padding: 0.75rem;
+    background-color: #ecdf9c;
+  }
 }
